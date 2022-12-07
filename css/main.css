@@ -2009,8 +2009,57 @@ a {
     color: #7A7B7D;
 }
 @media screen and (max-width:1100px) {
-    .footer-bottom__list{
-       flex-direction: column-reverse;
+    .footer-top__list{
+        width: 60%;
+      flex-direction: column;
+       margin: 0 auto;
+       gap: 40px;
     }
+    .footer-top__item{
+        text-align: center;
+    }
+    .footer-top__item__list__item-out{
+        margin: 0 auto;
+    }
+    .footer-top__item__list__link-address{
+        margin: 0 auto;
+    }
+    .footer-top__item__list__link-clean{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:730px) {
+    .footer-top__list{
+        width: 100%; 
+    }
+    .footer-top__item__list__link{
+        width: 100%;
+    }
+    .footer-top__item__list__link-address{
+        width: 60%;
+    }
+}
+@media screen and (max-width:600px) {
+    .footer-top__item__list__link-address{
+        width: 80%;
+    }
+    .footer-bottom__list{
+        padding-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:483px) {
+    .footer-top__item__list__item-out{
+        width: 100%;
+        font-size: 20px;
+    }
+    .footer-top__item__list__link-address{
+        padding: 10px 20px;
+    }
+    .footer-top__item__list__link__text{
+        font-size: 14px;
+    }
+
 }
 /* FOOTER STYLE END */
